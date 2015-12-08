@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "50B8C70C1BFD405900D80D9E"
+               BlueprintIdentifier = "50EB14FA1C16C73800BE3E83"
                BuildableName = "Sober.app"
                BlueprintName = "Sober"
                ReferencedContainer = "container:Sober.xcodeproj">
@@ -32,19 +32,9 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "50B8C7251BFD405A00D80D9E"
+               BlueprintIdentifier = "50EB15111C16C73800BE3E83"
                BuildableName = "SoberTests.xctest"
                BlueprintName = "SoberTests"
-               ReferencedContainer = "container:Sober.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "50B8C7301BFD405A00D80D9E"
-               BuildableName = "SoberUITests.xctest"
-               BlueprintName = "SoberUITests"
                ReferencedContainer = "container:Sober.xcodeproj">
             </BuildableReference>
          </TestableReference>
@@ -52,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "50B8C70C1BFD405900D80D9E"
+            BlueprintIdentifier = "50EB14FA1C16C73800BE3E83"
             BuildableName = "Sober.app"
             BlueprintName = "Sober"
             ReferencedContainer = "container:Sober.xcodeproj">
@@ -75,7 +65,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "50B8C70C1BFD405900D80D9E"
+            BlueprintIdentifier = "50EB14FA1C16C73800BE3E83"
             BuildableName = "Sober.app"
             BlueprintName = "Sober"
             ReferencedContainer = "container:Sober.xcodeproj">
@@ -94,7 +84,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "50B8C70C1BFD405900D80D9E"
+            BlueprintIdentifier = "50EB14FA1C16C73800BE3E83"
             BuildableName = "Sober.app"
             BlueprintName = "Sober"
             ReferencedContainer = "container:Sober.xcodeproj">

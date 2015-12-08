@@ -2,8 +2,8 @@
 //  SoberTests.swift
 //  SoberTests
 //
-//  Created by Albert on 15/11/19.
-//  Copyright © 2015年 Albert. All rights reserved.
+//  Created by Albert on 12/8/15.
+//  Copyright © 2015 Albert. All rights reserved.
 //
 
 import XCTest
