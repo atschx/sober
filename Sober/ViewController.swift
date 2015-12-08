@@ -26,9 +26,10 @@ class ViewController: UIViewController {
         webview.bounds=self.view.bounds
         
         //远程网页
-        webview.loadRequest(NSURLRequest(URL: NSURL(string:"http://wx.itry.com/itry/xb_verify?param=F87C6E8D83DD20D76C6FED0F5623672C&idfa=C84F8C7E-44C2-4BD7-8916-499199B8833A&msg=100&ver=1.19&binding=29_1")!))
+//        webview.loadRequest(NSURLRequest(URL: NSURL(string:"http://wx.itry.com/itry/xb_verify?param=F87C6E8D83DD20D76C6FED0F5623672C&idfa=C84F8C7E-44C2-4BD7-8916-499199B8833A&msg=100&ver=1.19&binding=29_1")!))
         
-        webview.loadRequest(NSURLRequest(URL: NSURL(string:"http://baidu.com")!))
+        webview.loadRequest(NSURLRequest(URL: NSURL(string:"http://atschx.com?uuid=\(UUID)")!))
+        
         //项目资源
 //        webview.loadRequest(
 //            NSURLRequest(

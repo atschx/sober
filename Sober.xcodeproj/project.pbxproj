@@ -10,7 +10,6 @@
 		50EB14FF1C16C73800BE3E83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EB14FE1C16C73800BE3E83 /* AppDelegate.swift */; };
 		50EB15011C16C73800BE3E83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EB15001C16C73800BE3E83 /* ViewController.swift */; };
 		50EB15041C16C73800BE3E83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50EB15021C16C73800BE3E83 /* Main.storyboard */; };
-		50EB15071C16C73800BE3E83 /* Sober.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 50EB15051C16C73800BE3E83 /* Sober.xcdatamodeld */; };
 		50EB15091C16C73800BE3E83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50EB15081C16C73800BE3E83 /* Assets.xcassets */; };
 		50EB150C1C16C73800BE3E83 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50EB150A1C16C73800BE3E83 /* LaunchScreen.storyboard */; };
 		50EB15171C16C73800BE3E83 /* SoberTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EB15161C16C73800BE3E83 /* SoberTests.swift */; };
@@ -31,7 +30,6 @@
 		50EB14FE1C16C73800BE3E83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50EB15001C16C73800BE3E83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		50EB15031C16C73800BE3E83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		50EB15061C16C73800BE3E83 /* Sober.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sober.xcdatamodel; sourceTree = "<group>"; };
 		50EB15081C16C73800BE3E83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		50EB150B1C16C73800BE3E83 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		50EB150D1C16C73800BE3E83 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,7 +83,6 @@
 				50EB15081C16C73800BE3E83 /* Assets.xcassets */,
 				50EB150A1C16C73800BE3E83 /* LaunchScreen.storyboard */,
 				50EB150D1C16C73800BE3E83 /* Info.plist */,
-				50EB15051C16C73800BE3E83 /* Sober.xcdatamodeld */,
 			);
 			path = Sober;
 			sourceTree = "<group>";
@@ -203,7 +200,6 @@
 			files = (
 				50EB15011C16C73800BE3E83 /* ViewController.swift in Sources */,
 				50EB14FF1C16C73800BE3E83 /* AppDelegate.swift in Sources */,
-				50EB15071C16C73800BE3E83 /* Sober.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,19 +401,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		50EB15051C16C73800BE3E83 /* Sober.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				50EB15061C16C73800BE3E83 /* Sober.xcdatamodel */,
-			);
-			currentVersion = 50EB15061C16C73800BE3E83 /* Sober.xcdatamodel */;
-			path = Sober.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = 50EB14F31C16C73800BE3E83 /* Project object */;
 }
