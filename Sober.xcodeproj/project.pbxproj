@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5064F6551C17C68300FAD713 /* SoberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5064F6541C17C68300FAD713 /* SoberViewController.swift */; };
 		50EB14FF1C16C73800BE3E83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EB14FE1C16C73800BE3E83 /* AppDelegate.swift */; };
 		50EB15011C16C73800BE3E83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EB15001C16C73800BE3E83 /* ViewController.swift */; };
 		50EB15041C16C73800BE3E83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50EB15021C16C73800BE3E83 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5064F6541C17C68300FAD713 /* SoberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoberViewController.swift; sourceTree = "<group>"; };
 		50EB14FB1C16C73800BE3E83 /* Sober.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sober.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50EB14FE1C16C73800BE3E83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50EB15001C16C73800BE3E83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		504CF3AC1C1754750005D123 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				50EB15001C16C73800BE3E83 /* ViewController.swift */,
+				5064F6541C17C68300FAD713 /* SoberViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		504CF3AD1C1754840005D123 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		504CF3AE1C17548C0005D123 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		504CF3AF1C1754B40005D123 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				50EB15021C16C73800BE3E83 /* Main.storyboard */,
+				50EB150A1C16C73800BE3E83 /* LaunchScreen.storyboard */,
+			);
+			name = StoryBoard;
+			sourceTree = "<group>";
+		};
 		50EB14F21C16C73800BE3E83 = {
 			isa = PBXGroup;
 			children = (
@@ -77,11 +111,12 @@
 		50EB14FD1C16C73800BE3E83 /* Sober */ = {
 			isa = PBXGroup;
 			children = (
+				504CF3AF1C1754B40005D123 /* StoryBoard */,
+				504CF3AE1C17548C0005D123 /* View */,
+				504CF3AD1C1754840005D123 /* Model */,
+				504CF3AC1C1754750005D123 /* Controller */,
 				50EB14FE1C16C73800BE3E83 /* AppDelegate.swift */,
-				50EB15001C16C73800BE3E83 /* ViewController.swift */,
-				50EB15021C16C73800BE3E83 /* Main.storyboard */,
 				50EB15081C16C73800BE3E83 /* Assets.xcassets */,
-				50EB150A1C16C73800BE3E83 /* LaunchScreen.storyboard */,
 				50EB150D1C16C73800BE3E83 /* Info.plist */,
 			);
 			path = Sober;
@@ -200,6 +235,7 @@
 			files = (
 				50EB15011C16C73800BE3E83 /* ViewController.swift in Sources */,
 				50EB14FF1C16C73800BE3E83 /* AppDelegate.swift in Sources */,
+				5064F6551C17C68300FAD713 /* SoberViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
