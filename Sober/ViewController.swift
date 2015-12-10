@@ -9,7 +9,7 @@
 import UIKit
 import SafariServices
 
-//import AdSupport
+import AdSupport
 
 class ViewController: UIViewController {
     
@@ -40,15 +40,25 @@ class ViewController: UIViewController {
     
     
     // MARK :functions
+    
+    // 获取
     func getAdertisingIdentifier() -> String{
         
-        //var advertisingIdentifier : NSUUID!{ get }
+        let asIdentifierManager = ASIdentifierManager.init()
+    
+        var userIDFA = ""
+        if asIdentifierManager.advertisingTrackingEnabled {
+            userIDFA = asIdentifierManager.advertisingIdentifier.UUIDString
+        }else{
+            userIDFA="用户限制广告跟踪"
+        }
         
-        //let UUID = NSUUID.UUID().UUIDString
-        
-        let UUID = UIDevice.currentDevice().identifierForVendor!.UUIDString
-        
-        return UUID
+        return userIDFA
+    }
+    
+    // Identifier for Vendor
+    func getIDFV() -> String {
+        return UIDevice.currentDevice().identifierForVendor!.UUIDString
     }
     
     // MARK :Actions
@@ -84,7 +94,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func showAdvertisingIdentifier(sender: AnyObject) {
-        lblAdvertisingIdentifier.text="121212"
+        lblAdvertisingIdentifier.text="\(getAdertisingIdentifier())"
     }
 }
 
