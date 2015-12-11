@@ -21,6 +21,8 @@ class ViewController: UIViewController {
         
         super.viewDidLoad()
         
+       // view.backgroundColor = UIColor.redColor()
+        
         //step 1:初始化原始UI界面
         configDefaultUI()
         
@@ -41,8 +43,8 @@ class ViewController: UIViewController {
     
     // MARK :functions
     
-    // 获取
-    func getAdertisingIdentifier() -> String{
+    //https://developer.apple.com/library/ios/documentation/AdSupport/Reference/ASIdentifierManager_Ref/#//apple_ref/occ/instp/ASIdentifierManager/advertisingIdentifier
+    func getIDFA() -> String{
         
         let asIdentifierManager = ASIdentifierManager.init()
     
@@ -56,6 +58,7 @@ class ViewController: UIViewController {
         return userIDFA
     }
     
+    //https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIDevice_Class/#//apple_ref/occ/instp/UIDevice/identifierForVendor
     // Identifier for Vendor
     func getIDFV() -> String {
         return UIDevice.currentDevice().identifierForVendor!.UUIDString
@@ -64,15 +67,11 @@ class ViewController: UIViewController {
     // MARK :Actions
     
     @IBAction func openUIWebView(sender: AnyObject) {
-        
-        print("=======openUIWebView")
-        
         //open remote url with UIWebView
         let webview = UIWebView(frame:self.view.bounds)
         webview.bounds=self.view.bounds
         webview.loadRequest(NSURLRequest(URL: NSURL(string:"http://atschx.com")!))
         self.view.addSubview(webview)
-        
     }
     
     @IBAction func openInSafari(sender: AnyObject) {
@@ -80,21 +79,15 @@ class ViewController: UIViewController {
         UIApplication.sharedApplication().openURL(url!)
     }
    
+    @available(iOS 9.0, *)
     @IBAction func openInSFSafariViewController(sender: AnyObject) {
-        
-       let tryUrl = NSURL(string:"http://wx.itry.com/itry/xb_verify?param=F87C6E8D83DD20D76C6FED0F5623672C&idfa=C84F8C7E-44C2-4BD7-8916-499199B8833A&msg=100&ver=1.19&binding=29_1")!
-        
-        print("try------\(tryUrl)")
-        
         let url = NSURL(string: "http://atschx.com")
-//        let sfsvc = SFSafariViewController(URL:url!, entersReaderIfAvailable: true )
         let sfsvc = SFSafariViewController(URL:url!)
-        sfsvc.title="welcome"
         self.presentViewController(sfsvc,animated:true,completion:nil)
     }
 
     @IBAction func showAdvertisingIdentifier(sender: AnyObject) {
-        lblAdvertisingIdentifier.text="\(getAdertisingIdentifier())"
+        lblAdvertisingIdentifier.text="\(getIDFA())"
     }
 }
 

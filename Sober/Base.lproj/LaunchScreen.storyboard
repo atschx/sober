@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" initialViewController="01J-lp-oVM">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -15,30 +14,42 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sober" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bqp-uF-Eao">
-                                <rect key="frame" x="20" y="280" width="560" height="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sober" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bqp-uF-Eao">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <animations/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="48"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" image="launch" translatesAutoresizingMaskIntoConstraints="NO" id="h2F-XA-qsk">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <animations/>
+                            </imageView>
                         </subviews>
                         <animations/>
-                        <color key="backgroundColor" red="1" green="0.6625812596426387" blue="0.073459098785794374" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
-                            <constraint firstItem="Bqp-uF-Eao" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="6lb-v5-ZA5"/>
-                            <constraint firstItem="Bqp-uF-Eao" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="260" id="NO3-BI-Fg0"/>
-                            <constraint firstItem="Bqp-uF-Eao" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="Zfs-w7-T13"/>
-                            <constraint firstItem="Bqp-uF-Eao" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="dzJ-g2-gQQ"/>
+                            <constraint firstItem="h2F-XA-qsk" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="1Ss-7g-VX7"/>
+                            <constraint firstItem="h2F-XA-qsk" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="3Fv-9r-ejg"/>
+                            <constraint firstItem="Bqp-uF-Eao" firstAttribute="centerY" secondItem="h2F-XA-qsk" secondAttribute="centerY" id="IA3-wj-CE6"/>
+                            <constraint firstItem="h2F-XA-qsk" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="J7z-qU-VkI"/>
+                            <constraint firstItem="Bqp-uF-Eao" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Z3F-z2-FEm"/>
+                            <constraint firstItem="Bqp-uF-Eao" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="fJM-5G-w10"/>
+                            <constraint firstItem="Bqp-uF-Eao" firstAttribute="centerX" secondItem="h2F-XA-qsk" secondAttribute="centerX" id="gsZ-7v-sOL"/>
+                            <constraint firstAttribute="trailing" secondItem="h2F-XA-qsk" secondAttribute="trailing" id="tgU-Fc-7OX"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="h2F-XA-qsk" secondAttribute="bottom" id="wdN-9d-Han"/>
+                            <constraint firstItem="h2F-XA-qsk" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="wvd-lF-si2"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="28.266666666666666" y="355"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="launch" width="320" height="568"/>
+    </resources>
 </document>

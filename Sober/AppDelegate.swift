@@ -16,6 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        let hasinstallFacebook = application.canOpenURL( NSURL(string:"fb://")!)
+        print("has installFacebook \(hasinstallFacebook)")
+
+        let hasinstallWeChat = application.canOpenURL( NSURL(string:"wechat://")!)
+        print("has hasinstallWeChat \(hasinstallWeChat)")
+
+        
         // Override point for customization after application launch.
         return true
     }
