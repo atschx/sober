@@ -16,6 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
         let hasinstallFacebook = application.canOpenURL( NSURL(string:"fb://")!)
         print("has installFacebook \(hasinstallFacebook)")
 

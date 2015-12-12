@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		503BDE261C196523009A668C /* Sober.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503BDE251C196523009A668C /* Sober.swift */; };
 		503BDE281C1967C6009A668C /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 503BDE271C1967C6009A668C /* App.swift */; };
-		5064F6551C17C68300FAD713 /* SoberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5064F6541C17C68300FAD713 /* SoberViewController.swift */; };
 		50EB14FF1C16C73800BE3E83 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EB14FE1C16C73800BE3E83 /* AppDelegate.swift */; };
 		50EB15011C16C73800BE3E83 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50EB15001C16C73800BE3E83 /* ViewController.swift */; };
 		50EB15041C16C73800BE3E83 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50EB15021C16C73800BE3E83 /* Main.storyboard */; };
@@ -31,7 +30,6 @@
 /* Begin PBXFileReference section */
 		503BDE251C196523009A668C /* Sober.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sober.swift; sourceTree = "<group>"; };
 		503BDE271C1967C6009A668C /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
-		5064F6541C17C68300FAD713 /* SoberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoberViewController.swift; sourceTree = "<group>"; };
 		50EB14FB1C16C73800BE3E83 /* Sober.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sober.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50EB14FE1C16C73800BE3E83 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50EB15001C16C73800BE3E83 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,7 +72,6 @@
 			isa = PBXGroup;
 			children = (
 				50EB15001C16C73800BE3E83 /* ViewController.swift */,
-				5064F6541C17C68300FAD713 /* SoberViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -251,7 +248,6 @@
 				503BDE261C196523009A668C /* Sober.swift in Sources */,
 				50EB14FF1C16C73800BE3E83 /* AppDelegate.swift in Sources */,
 				503BDE281C1967C6009A668C /* App.swift in Sources */,
-				5064F6551C17C68300FAD713 /* SoberViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
