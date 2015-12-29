@@ -13,7 +13,7 @@ import AdSupport
 
 class ViewController: UIViewController {
     
-    @IBOutlet weak var appSoberName: UILabel!
+    //@IBOutlet weak var appSoberName: UILabel!
     @IBOutlet weak var lblAdvertisingIdentifier: UILabel!
     
     // MARK
@@ -37,7 +37,7 @@ class ViewController: UIViewController {
     // MARK :configUI
     
     func configDefaultUI(){
-        appSoberName.text="AppSober!"
+        //appSoberName.text="AppSober!"
     }
     
     

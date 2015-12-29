@@ -4,14 +4,15 @@
 <dict>
 	<key>LSApplicationQueriesSchemes</key>
 	<array>
-		<string>wexin</string>
 		<string>wechat</string>
 		<string>fb</string>
+		<string>zhihu</string>
+		<string>mqq</string>
 	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>应用收播</string>
+	<string>Sober</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>

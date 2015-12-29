@@ -22,6 +22,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
         let hasinstallWeChat = application.canOpenURL( NSURL(string:"wechat://")!)
         print("has hasinstallWeChat \(hasinstallWeChat)")
+        
+        let hasinstallZhihu = application.canOpenURL( NSURL(string:"zhihu://")!)
+        print("has hasinstallZhihu \(hasinstallZhihu)")
+        
+        let hasinstallQQ = application.canOpenURL( NSURL(string:"mqq://")!)
+        print("has hasinstallQQ \(hasinstallQQ)")
 
         
         // Override point for customization after application launch.
